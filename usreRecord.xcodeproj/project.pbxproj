@@ -15,6 +15,7 @@
 		9D4D5F171D7E32EC00CBC8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D5F151D7E32EC00CBC8EE /* LaunchScreen.storyboard */; };
 		9D4D5F221D7E32EC00CBC8EE /* usreRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D5F211D7E32EC00CBC8EE /* usreRecordTests.swift */; };
 		9D4D5F2D1D7E32EC00CBC8EE /* usreRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D5F2C1D7E32EC00CBC8EE /* usreRecordUITests.swift */; };
+		9D4D5F3B1D7E3E3B00CBC8EE /* secondVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D5F3A1D7E3E3B00CBC8EE /* secondVcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9D4D5F281D7E32EC00CBC8EE /* usreRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usreRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4D5F2C1D7E32EC00CBC8EE /* usreRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usreRecordUITests.swift; sourceTree = "<group>"; };
 		9D4D5F2E1D7E32EC00CBC8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4D5F3A1D7E3E3B00CBC8EE /* secondVcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondVcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9D4D5F151D7E32EC00CBC8EE /* LaunchScreen.storyboard */,
 				9D4D5F181D7E32EC00CBC8EE /* Info.plist */,
 				9D4D5F101D7E32EC00CBC8EE /* usreRecord.xcdatamodeld */,
+				9D4D5F3A1D7E3E3B00CBC8EE /* secondVcViewController.swift */,
 			);
 			path = usreRecord;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				9D4D5F121D7E32EC00CBC8EE /* usreRecord.xcdatamodeld in Sources */,
 				9D4D5F0C1D7E32EC00CBC8EE /* ViewController.swift in Sources */,
 				9D4D5F0A1D7E32EC00CBC8EE /* AppDelegate.swift in Sources */,
+				9D4D5F3B1D7E3E3B00CBC8EE /* secondVcViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

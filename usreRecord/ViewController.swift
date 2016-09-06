@@ -7,9 +7,12 @@
 //
 
 import UIKit
-
+import CoreData
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstnameField: UITextField!
+    
+    @IBOutlet weak var lastnameField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +24,26 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func saveUser(sender: AnyObject) {
+        
+        let appDel:AppDelegate=UIApplication.sharedApplication().delegate as! AppDelegate
+        let context:NSManagedObjectContext=appDel.managedObjectContext
+        
+        let newUser=NSEntityDescription.insertNewObjectForEntityForName("User", inManagedObjectContext: context)
+        
+        newUser.setValue(self.firstnameField.text, forKey: "firstname")
+        newUser.setValue(self.lastnameField.text, forKey: "lastname")
+        
+        do{
+            try context.save()
+        }
+        catch{
+            print("Error while saving the data")
+        }
+        
+    }
+    
+    @IBAction func showallUser(sender: AnyObject) {
+    }
 }
 
